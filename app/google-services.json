@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300754650719",
+    "project_id": "netresultspushnotification",
+    "storage_bucket": "netresultspushnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300754650719:android:c5bf7c3a70347f57493dea",
+        "android_client_info": {
+          "package_name": "com.skytron.netresultspushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300754650719-kth80bk3qvqpg0796lq2seulqv7piul1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANhefNbkzaJmlodcHd9R1qwRhHBNAj8ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300754650719-kth80bk3qvqpg0796lq2seulqv7piul1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
