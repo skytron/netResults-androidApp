@@ -2,7 +2,8 @@
     <string name="app_name">NetResultsPushNotification</string>
 
     <!-- notification -->
-    <string name="notification_channel_id">notification_channel_general</string>
+    <string name="notification_channel_id" translatable="false">notification_channel_general</string>
     <string name="notification_channel_general_name">General</string>
     <string name="notification_channel_general_description">A general notification channel</string>
+    <string name="notification_general_topic" translatable="false">general</string>
 </resources>
