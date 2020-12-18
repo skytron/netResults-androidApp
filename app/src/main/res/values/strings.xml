@@ -6,4 +6,9 @@
     <string name="notification_channel_general_name">General</string>
     <string name="notification_channel_general_description">A general notification channel</string>
     <string name="notification_general_topic" translatable="false">general</string>
+
+
+    <string name="notification_text">Notification Text</string>
+    <string name="no_message_from_notification">No message from notification</string>
+    <string name="default_notification_message_main_activity">Application is open direct not from push notification.\nDefault message</string>
 </resources>

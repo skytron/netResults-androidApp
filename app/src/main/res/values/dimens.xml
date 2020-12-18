@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- margin -->
+    <dimen name="spacing">8dp</dimen>
+    <dimen name="spacing_2_divide">4dp</dimen>
+    <dimen name="spacing_2_times">16dp</dimen>
+    <dimen name="spacing_3_times">24dp</dimen>
+    <dimen name="spacing_4_times">32dp</dimen>
+    <dimen name="spacing_5_times">40dp</dimen>
+    <dimen name="spacing_6_times">48dp</dimen>
+    <dimen name="spacing_7_times">52dp</dimen>
+    <dimen name="spacing_8_times">64dp</dimen>
+</resources>
