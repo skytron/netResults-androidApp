@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- notification -->
+    <string name="notification_channel_general_name">Generale</string>
+    <string name="notification_channel_general_description">Un canale di notifica generale</string>
+</resources>

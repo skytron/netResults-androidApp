@@ -1,4 +1,4 @@
-package com.skytron.netresultspushnotification.notification;
+package com.skytron.netresultspushnotification.notification.service;
 
 import android.content.Intent;
 
