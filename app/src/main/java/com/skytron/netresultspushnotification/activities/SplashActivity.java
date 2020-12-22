@@ -16,19 +16,24 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+
         // Simulate loading data to show splash screen
-        // Wait 2 seconds
-        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-            @Override
-            public void run() {
+        // Wait 1 second
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
 
-                // TODO - Resend bundle data to main activity
-                Intent startMainActivityIntent = new Intent(SplashActivity.this, MainActivity.class);
-                startActivity(startMainActivityIntent);
-
-                // Terminate splash activity
-                finish();
+            // Resend intent extra from push notification
+            Intent intent = getIntent();
+            String body   = null;
+            if (intent != null && intent.hasExtra("body")) {
+                body = intent.getStringExtra("body");
             }
-        }, 2000);
+
+            Intent startMainActivityIntent = new Intent(SplashActivity.this, MainActivity.class);
+            startMainActivityIntent.putExtra("body", body);
+            startActivity(startMainActivityIntent);
+
+            // Terminate splash activity
+            finish();
+        }, 1000);
     }
 }

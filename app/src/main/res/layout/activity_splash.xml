@@ -2,17 +2,30 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2E2D2D"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- Insert logo  -->
     <TextView
-        android:text="Splash Screen"
+        android:text="@string/splash_screen_title"
+        android:textColor="@android:color/white"
+        style="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/spacing_8_times"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+
+    <!-- Fake loading spinner -->
+    <ProgressBar
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="@dimen/spacing_6_times"
+        android:indeterminate="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,4 +11,6 @@
     <string name="notification_text">Notification Text</string>
     <string name="no_message_from_notification">No message from notification</string>
     <string name="default_notification_message_main_activity">Application is open direct not from push notification.\nDefault message</string>
+    <string name="splash_screen_image_description">Splash screen image</string>
+    <string name="splash_screen_title">NetResults Push Notification</string>
 </resources>

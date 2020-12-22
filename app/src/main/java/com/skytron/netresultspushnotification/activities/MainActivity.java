@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Check intent
         Intent intent = getIntent();
-        if (intent != null) {
+        if (intent != null && intent.hasExtra("body")) {
             String body   = intent.getStringExtra("body");
 
             if (body != null) {

@@ -6,4 +6,5 @@
     <string name="notification_text">Testo della notifica</string>
     <string name="no_message_from_notification">Nessun messaggio dalla notifica</string>
     <string name="default_notification_message_main_activity">L\'applicazione è stata aperta in modo diretto non da notifica push.\nMessaggio di default</string>
+    <string name="splash_screen_image_description">Imagine splash screen</string>
 </resources>
