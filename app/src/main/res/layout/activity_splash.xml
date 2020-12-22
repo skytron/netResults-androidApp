@@ -8,6 +8,7 @@
     <TextView
         android:text="@string/splash_screen_title"
         android:textColor="@android:color/white"
+        android:textAlignment="center"
         style="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
